@@ -1,9 +1,15 @@
 import Link from "next/link";
 import { Slide } from 'react-swift-reveal'
 import Blob from "../components/blob";
+import Head from "next/head";
 
 const Home = () => {
   return (
+    <>
+    <Head>
+      <title>Pirogrammer - Front end Developer</title>
+    </Head>
+
     <Slide bottom={true} duration={2000}>
       <Blob></Blob>
       <main className="cursor-default min-h-[100vh] w-full flex justify-center items-center">
@@ -24,7 +30,7 @@ const Home = () => {
           </div>
 
           <div className="info max-w-2xl text-base opacity-50">
-            Hi, my name is Prince Yadav. I'm a student freelancing on Fiverr,
+            Hi, my name is Prince Yadav. I&apos;m a student freelancing on Fiverr,
             specializing in front-end web{" "}
             <span className="flex w-2xl justify-center">
               {" "}
@@ -34,6 +40,7 @@ const Home = () => {
         </div>
       </main>
     </Slide>
+    </>
   );
 }
 
