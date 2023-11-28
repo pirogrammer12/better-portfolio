@@ -7,7 +7,7 @@ export default function Document() {
         <title>Pirogrammer</title>
       </Head>
 
-      <body className="max-h-[100vh] max-w-[100vw] overflow-hidden">
+      <body className="loop max-h-[100vh] max-w-[100vw] overflow-hidden">
         <Main />
         <NextScript />
       </body>
