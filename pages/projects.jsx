@@ -3,7 +3,7 @@ import { Fade } from 'react-swift-reveal'
 import Header from '../components/header'
 import Blob from "../components/blob";
 import Project from '@/components/project';
-import ContentSlider from '../components/Slider';
+import ContentSlider from '@/components/slider';
 import Head from 'next/head';
 
 const SliderPage = () => {
