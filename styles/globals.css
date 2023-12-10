@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -38,9 +43,19 @@ body {
 .loop {
   min-height: 100vh;
   width: 100vw;
-  background: linear-gradient(to right, black, darkblue, black);
+  background: linear-gradient(to right, black, rgb(30, 34, 35), black);
   background-size: 200%;
   animation: moving-gradient 8s linear infinite;
   color: white;
   overflow: hidden !important;
+}
+
+.mobile\:hidden {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .mobile\:hidden {
+    display: none;
+  }
 }
