@@ -6,7 +6,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Head from 'next/head';
 
-const Projects = () => {
+const Contact = () => {
     return (
         <>
             <Head>
@@ -15,7 +15,7 @@ const Projects = () => {
             <Zoom duration={2000}>
                 <Blob />
                 <Header />
-                <main className='overflow-visible h-full my-20 lg:mx-10 mx-4 w-[100vw] flex flex-col lg:flex-row lg:gap-20 gap-6 justify-center items-center'> 
+                <main className='overflow-visible h-full lg:h-[70vh] my-20 lg:mx-10 mx-2 w-[100vw] flex flex-col lg:flex-row lg:gap-20 gap-6 justify-center items-center'> 
                     <Link href={"https://fiverr.com/pirogrammer12"} target='_blank' className='lg:h-[30rem] rounded-xl duration-700 h-auto border-2 border-zinc-500/40 hover:border-zinc-600 opacity-50 hover:opacity-90 w-[90%] p-10 lg:w-1/3'>
                             <span className="h-full flex justify-center items-center flex-col">
                                 <span className="mb-6 z-10 flex items-center justify-center w-12 h-12 text-sm duration-1000 rounded-full text-zinc-200 group-hover:text-white border-zinc-500 group-hover:border-zinc-200 drop-shadow-orange">
@@ -49,4 +49,4 @@ const Projects = () => {
     )
 }
 
-export default Projects
+export default Contact

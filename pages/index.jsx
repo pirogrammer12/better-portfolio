@@ -12,7 +12,7 @@ const Home = () => {
 
     <Slide bottom={true} duration={2000}>
       <Blob className={"mobile:hidden"}></Blob>
-      <main className="cursor-default min-h-[100vh] w-full flex justify-center items-center">
+      <main className="h-screen overflow-hidden w-full flex justify-center items-center">
         <div className="wrapper flex justify-center items-center flex-col">
         <Fade duration={1000} delay={1000}>
           <div className="links text-base">
